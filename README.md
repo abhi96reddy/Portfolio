@@ -29,4 +29,6 @@ The portfolio contains 36 professional/client projects and 3 self projects. Sear
 
 ## Deployment
 
-Run `npm run build` and deploy the generated `dist/` directory to any static host. For GitHub Pages project sites, set Vite's `base` option to the repository path before building.
+Pushes to `main` automatically build and deploy the site through GitHub Actions. The production site is available at:
+
+https://abhi96reddy.github.io/PortfolioWebsite/
