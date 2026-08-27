@@ -31,4 +31,4 @@ The portfolio contains 36 professional/client projects and 3 self projects. Sear
 
 Pushes to `main` automatically build and deploy the site through GitHub Actions. The production site is available at:
 
-https://abhi96reddy.github.io/PortfolioWebsite/
+https://abhi96reddy.github.io/Portfolio/
