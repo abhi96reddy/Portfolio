@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { projects } from './projects';
+import microsoftLogo from '../assets/microsoft.svg';
 import './styles.css';
 
 const filters = ['All', 'AI & Copilot', 'Analytics & BI', 'Compliance & Governance', 'Knowledge & Content', 'People & HR', 'Operations & Automation'];
@@ -85,7 +86,7 @@ export default function App() {
 <div className="tech-logo-card"><div className="tech-logo-image"><img src="https://msicons.com/icons/power-platform/PowerApps_scalable.svg" alt="Microsoft Power Apps logo" referrerPolicy="no-referrer"/></div><span>Power Apps</span></div>
 <div className="tech-logo-card"><div className="tech-logo-image"><img src="https://msicons.com/icons/power-platform/PowerAutomate_scalable.svg" alt="Microsoft Power Automate logo" referrerPolicy="no-referrer"/></div><span>Power Automate</span></div>
 <div className="tech-logo-card"><div className="tech-logo-image"><img src="https://msicons.com/icons/fabric/power_bi_color.svg" alt="Microsoft Power BI logo" referrerPolicy="no-referrer"/></div><span>Power BI</span></div>
-<div className="tech-logo-card"><div className="tech-logo-image"><img src="assets/microsoft.svg" alt="Microsoft logo" referrerPolicy="no-referrer"/></div><span>Microsoft</span></div>
+<div className="tech-logo-card"><div className="tech-logo-image"><img src={microsoftLogo} alt="Microsoft logo"/></div><span>Microsoft</span></div>
 <div className="tech-logo-card"><div className="tech-logo-image"><img src="https://msicons.com/icons/power-platform/PowerPages_scalable.svg" alt="Microsoft Power Pages logo" referrerPolicy="no-referrer"/></div><span>Power Pages</span></div>
 <div className="tech-logo-card"><div className="tech-logo-image"><img src="https://cdn.freebiesupply.com/logos/large/2x/microsoft-copilot-logo-png-transparent.png" alt="Microsoft Copilot logo" referrerPolicy="no-referrer"/></div><span>Microsoft Copilot</span></div>
 <div className="tech-logo-card"><div className="tech-logo-image"><img src="https://msicons.com/icons/sharepoint/microsoft-office-sharepoint-2025.svg" alt="Microsoft SharePoint logo" referrerPolicy="no-referrer"/></div><span>SharePoint</span></div>
