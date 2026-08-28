@@ -224,7 +224,7 @@ export default function App() {
 <div className="timeline-marker"></div>
 <div className="timeline-card">
 <div className="timeline-top">
-<div><h3>Power Platform / Business Intelligence Intern</h3><p className="company">CBase Inc.</p></div>
+<div><h3>Power Platform / Business Intelligence Developer</h3><p className="company">CBase Inc.</p></div>
 <div className="period"><span>May 2025 — Dec 2025</span></div>
 </div>
 
